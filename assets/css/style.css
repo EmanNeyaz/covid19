@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-color-font:#035755;
+    --main-color-btn: #FB4C47 ;
+  }
+li {
+    display: inline;
+    padding: 20px;
+    color: var(--main-color-font);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-weight: 600px;
+}
+img {
+    max-width: 100%;
+  }
+  .btn{
+    border-radius: 46px;
+    border-color: var(--main-color-btn);
+    width:120px ;
+    height:45px ;
+    color: var(--main-color-btn);
+
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo p {
+    color: var(--main-color-font);
+   
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.help {
+    display: flex;
+    align-items: center;
+}
+.help .btn {
+    background-color: var(--main-color-btn);
+    color: white;
+    width:135px ;
+}
+.virus {
+    display: flex;
+    align-items: center;
+}
+.virus .btn {
+    background: #FA565226;
+    width:135px ;
+}
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.covid-card {
+    box-shadow: 0px 35px 87px 0px #0000001C;
+
+    padding: 20px;
+    width: 32%;
+    height: 60px;
+    background-color:#FFFFFF ;
+}
